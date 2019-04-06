@@ -530,4 +530,10 @@ button:hover {
 .pc-price {
 	font-size: 20px;
 	font-weight: 800;
+	padding-top: 10px;
+}
+.pc-order-btn {
+	background-color:#0ccc30;
+	width: 110px;
+	padding: 5px 5px;
 }
