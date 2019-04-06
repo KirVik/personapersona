@@ -465,12 +465,14 @@ button:hover {
 	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.55);
 	transition: 0.3s;
 }
-.header-new, .lead-image {margin: 0 5%;}
+.header-new, .main-image {margin: 0 5%;}
+.main-image img{width: 100%}
 .header-new {margin-top: 15px;}
 .product-section {
 	display: flex;
 	justify-content: flex-start;
 	flex-wrap: wrap;
+	
 }
 
 .product-card {
