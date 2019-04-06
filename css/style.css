@@ -422,7 +422,9 @@ article {
 	margin-bottom: 20px;
 	transition: 0.2s;
 }
-
+button:focus, button:active {
+	outline-color: transparent;
+}
 .register {
 	background-color: #fefefe;
 }
