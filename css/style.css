@@ -465,14 +465,20 @@ button:hover {
 	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.55);
 	transition: 0.3s;
 }
+
 .header-new, .main-image {margin: 0 5%;}
 .main-image img{width: 100%}
 .header-new {margin-top: 15px;}
+
+.product{ margin-left: 5%
+/*	display: flex;
+	justify-content: center;*/  
+}
 .product-section {
 	display: flex;
 	justify-content: flex-start;
 	flex-wrap: wrap;
-	
+
 }
 
 .product-card {
@@ -480,10 +486,10 @@ button:hover {
 	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.45);
 	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.45);
 	border-radius:2.5px;
-	max-width: 245px;
+	max-width: 15%;
 	padding:15px;
 	background: #fff;
-	margin: 15px 0 2.5% 5%;
+	margin: 15px 2.5% 2% 0;
 	transition:0.5s;
 }
 .product-card:hover {
@@ -511,7 +517,7 @@ button:hover {
 }
 
 .product-card .pc-info h2  {
-	height:58px;
+	height:70px;
 	overflow:hidden;
 	font-size: 20px;
 	text-align: center;
